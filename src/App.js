@@ -1,8 +1,15 @@
-import './App.css';
+import { theme } from "./theme"
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyle } from "./GlobalStyle"
+import PersonalHomepage from "./features/PersonalHomepage";
+
 
 function App() {
   return (
-    <p>Hello</p>
+    <ThemeProvider theme={theme}>
+    <GlobalStyle />
+      <PersonalHomepage/>
+    </ThemeProvider>
   );
 }
 
