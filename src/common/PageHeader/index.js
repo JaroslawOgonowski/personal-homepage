@@ -1,19 +1,23 @@
-import { Content, Herald, HireMeButton, Photo, Title, Wrapper } from "./styled";
+import { Content, Herald, HireMeButton, HireMeIcon, Photo, Title, Wrapper } from "./styled";
 import photo from "./images/JarosławOgonowski.jpg"
+import hireMeIcon from "./images/Message.svg"
 import { ThemeSwitchButton } from "./ThemeSwitchButton";
 
 const PageHeader = () => (
-<Wrapper>
-<Photo src={photo} alt="Jarosław Ogonowski"/>
-<Content>
-<Herald>This is</Herald>
-<Title>Jarosław Ogonowski</Title>
-💼🆕 I am a starting front end developer. 
-I am looking for a job where I can improve my skills and acquire completely new ones.
-<HireMeButton>Hire me</HireMeButton>
-</Content>
-<ThemeSwitchButton/>
-</Wrapper>
+    <Wrapper>
+        <Photo src={photo} alt="Jarosław Ogonowski" />
+        <Content>
+            <Herald>This is</Herald>
+            <Title>Jarosław Ogonowski</Title>
+            💼🆕 I'm a starting front end developer.
+            I'm looking for a job where I can improve my skills and acquire completely new ones.
+            <HireMeButton>
+                <HireMeIcon src={hireMeIcon} alt=""/>
+                Hire Me
+            </HireMeButton>
+        </Content>
+        <ThemeSwitchButton />
+    </Wrapper>
 );
 
 export default PageHeader;

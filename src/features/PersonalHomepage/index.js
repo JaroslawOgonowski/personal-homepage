@@ -5,6 +5,7 @@ const PersonalHomepage = () => {
     return (
         <StyledPage>
             <PageHeader />
+            <Article/>
         </StyledPage>
     )
 };
