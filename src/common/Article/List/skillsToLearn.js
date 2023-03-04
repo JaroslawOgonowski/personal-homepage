@@ -1,7 +1,8 @@
 export const skillsToLearn = [
-    "pierwszy do nauki",
-    "drugi do nauki",
-    "trzeci do nauki",
+  "TypeScript",
+  "Node.js",
+  "UI/UX Design",
+  "Wordpress",
 ];
 
 export default skillsToLearn;

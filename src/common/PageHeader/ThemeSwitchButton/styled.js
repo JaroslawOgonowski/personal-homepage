@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const ThemeButton = styled.button`
-color: ${({theme})=> theme.color.slateGray};
+color: ${({theme})=> theme.color.textSecondary};
 display: flex;
 align-items: center;
 align-self: flex-start;
 border: none;
-background-color: ${({theme})=> theme.color.mercury};
+background-color: ${({theme})=> theme.color.whiteLilac};
 transition: 1s;
 position: absolute;
 top: 120px;

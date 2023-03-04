@@ -12,11 +12,11 @@ const PersonalHomepage = () => {
         <StyledPage>
             <PageHeader />
             <Article
-                title="My skillset includes"
+                title="My skillset includes 🛠️"
                 content={List(skillArray)}>
             </Article>
             <Article
-                title="What I want to learn next"
+                title="What I want to learn next 🚀"
                 content={List(skillToLearnArray)}>
             </Article>
         </StyledPage>

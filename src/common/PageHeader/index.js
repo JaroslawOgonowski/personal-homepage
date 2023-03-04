@@ -12,7 +12,7 @@ const PageHeader = () => (
             💼🆕 I'm a starting front end developer.
             I'm looking for a job where I can improve my skills and acquire completely new ones.
             <HireMeButton>
-                <HireMeIcon src={hireMeIcon} alt=""/>
+                <HireMeIcon src={hireMeIcon} alt="" />
                 Hire Me
             </HireMeButton>
         </Content>

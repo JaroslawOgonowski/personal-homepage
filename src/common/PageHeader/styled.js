@@ -17,7 +17,7 @@ border-radius: 50%;
 `;
 
 export const Herald = styled.div`
-color: ${({theme})=> theme.color.slateGray};
+color: ${({theme})=> theme.color.textSecondary};
 font-size: 12px;
 font-weight: 700;
 margin-bottom: 12px;
