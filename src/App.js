@@ -2,6 +2,7 @@ import { theme } from "./theme"
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from "./GlobalStyle"
 import PersonalHomepage from "./features/PersonalHomepage";
+import Article from "./common/Article";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <ThemeProvider theme={theme}>
     <GlobalStyle />
       <PersonalHomepage/>
+      <Article></Article>
     </ThemeProvider>
   );
 }

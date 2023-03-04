@@ -1,7 +1,10 @@
-export const Article = () => {
+import { Content, Title, Wrapper } from "./styled"
+
+export const Article = ({title, content}) => (
 
     <Wrapper>
-        <Title></Title>
-        <Content></Content>
+        <Title>{title}</Title>
+        <Content>{content}</Content>
     </Wrapper>
-}
+);
+export default Article;
