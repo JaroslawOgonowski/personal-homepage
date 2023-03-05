@@ -20,4 +20,14 @@ font-size: 20px;
 export const Wrapper = styled.div`
 margin: auto;
 text-align: center;
+
+`;
+
+export const GHTiles = styled.div`
+display: grid;
+align-items:center;
+justify-content: center;
+grid-template-columns: 592px 592px;
+grid-gap: 32px;
+grid-column-gap: 32px;
 `;

@@ -9,7 +9,6 @@ color: ${({theme})=> theme.color.textSecondary};
 font-weight: 400;
 font-size: 18px;
 list-style: none;
-text-overflow: ellipsis;
 li::before {
     content: "•"; 
     color: ${({theme})=> theme.color.scienceBlue};
