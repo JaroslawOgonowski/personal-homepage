@@ -11,10 +11,12 @@ const PageHeader = () => (
             <Title>Jarosław Ogonowski</Title>
             💼🆕 I'm a starting front end developer.
             I'm looking for a job where I can improve my skills and acquire completely new ones.
-            <HireMeButton>
-                <HireMeIcon src={hireMeIcon} alt="" />
-                Hire Me
-            </HireMeButton>
+            <a href="mailTo: dza.ogonowski@gmail.com">
+                <HireMeButton>
+                    <HireMeIcon src={hireMeIcon} alt="" />
+                    Hire Me
+                </HireMeButton>
+            </a>
         </Content>
         <ThemeSwitchButton />
     </Wrapper>

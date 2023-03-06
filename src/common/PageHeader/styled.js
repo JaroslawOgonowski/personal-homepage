@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { MailLink } from "../PageFooter/styled";
 
 export const Wrapper = styled.div`
 max-width: 1216px;
