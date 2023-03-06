@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.bcad3f09.js",
+    "main.js": "/personal-homepage/static/js/main.d5e30675.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/JarosławOgonowski.jpg": "/personal-homepage/static/media/JarosławOgonowski.2afe43edad5b64877843.jpg",
     "static/media/ToggleOff-light.svg": "/personal-homepage/static/media/ToggleOff-light.3f28b0e1b24424a9878f7106dcf99739.svg",
+    "static/media/Instagram_black.svg": "/personal-homepage/static/media/Instagram_black.87732ce7a95cf2f174532f5fed6dd654.svg",
+    "static/media/Github_black.svg": "/personal-homepage/static/media/Github_black.f2199b4d0b7c0ad139ea3b06317af5bc.svg",
     "static/media/portfolioIcon.svg": "/personal-homepage/static/media/portfolioIcon.a9062bf9626a38e8866f20e84ee3d71b.svg",
+    "static/media/LinkedIN_black.svg": "/personal-homepage/static/media/LinkedIN_black.aa721be80bc7da936206abfba931dfbb.svg",
     "static/media/Message.svg": "/personal-homepage/static/media/Message.514461521cb8d76b55e16ac430346abb.svg",
     "index.html": "/personal-homepage/index.html",
-    "main.bcad3f09.js.map": "/personal-homepage/static/js/main.bcad3f09.js.map",
+    "static/media/Facebook_black.svg": "/personal-homepage/static/media/Facebook_black.4fcd2e5a629788c48eff881bf1586f1a.svg",
+    "main.d5e30675.js.map": "/personal-homepage/static/js/main.d5e30675.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.bcad3f09.js"
+    "static/js/main.d5e30675.js"
   ]
 }
