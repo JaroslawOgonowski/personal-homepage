@@ -8,7 +8,7 @@ export const theme = {
         mercury: "#E5E5E5",
         whiteLilac: "#FBFBFE",
         white: "hsl(0, 0%, 100%)",
-      
+        lighterBlue: "#2188FF",
         
     },
     breakPoint:{

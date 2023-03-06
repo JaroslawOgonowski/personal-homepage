@@ -10,19 +10,22 @@ font-weight: 700;
 font-size: 12px;
 text-transform: uppercase;
 color: ${({ theme }) => theme.color.textSecondary};
-margin: 0;
-`;
-
-export const FooterTitle = styled.h2`
-font-weight: 900;
-font-size: 32px;
-line-height: 39px;
-margin-top: 24px;
 margin-bottom: 24px;
 `;
 
+export const MailLink = styled.a`
+font-weight: 900;
+font-size: 32px;
+line-height: 39px;
+text-decoration: none;
+color: ${({ theme }) => theme.color.textBlack};
+&:hover{
+    color: ${({ theme }) => theme.color.scienceBlue}
+}
+`;
+
 export const Content = styled.div`
-margin: 0;
+margin-top: 24px;
 font-weight: 400;
 font-size: 18px;
 color: ${({ theme }) => theme.color.black};
@@ -32,12 +35,17 @@ export const SocialLinks = styled.div`
 display: flex;
 flex-direction: row;
 gap: 24px;
+margin-top: 56px;
 `;
 
-export const IconLink = styled.img`
+
+export const SocialLink = styled.a`
+color: black;
 width: 48px;
 height: 48px;
-margin-top: 56px;
+&:hover{
+    color: ${({ theme }) => theme.color.scienceBlue};  
+}
 `;
 
 export const Wrapper = styled.div`
