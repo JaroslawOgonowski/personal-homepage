@@ -5,9 +5,10 @@ margin-top: 54px;
 `;
 
 export const Title = styled.h2`
-margin: 12.99px 0 8px;
 font-weight: 900;
 font-size: 30px;
+margin-left: 0;
+margin-right: 0;
 `;
 
 
@@ -20,14 +21,15 @@ font-size: 20px;
 export const Wrapper = styled.div`
 margin: auto;
 text-align: center;
-
 `;
 
 export const GHTiles = styled.div`
-display: grid;
-align-items:center;
-justify-content: center;
-grid-template-columns: 592px 592px;
-grid-gap: 32px;
-grid-column-gap: 32px;
+margin: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: space-between;
+justify-content: space-between;
+width: 1216px;
+gap: 8px;
 `;
