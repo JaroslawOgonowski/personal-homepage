@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from "./GlobalStyle"
 import PersonalHomepage from "./features/PersonalHomepage";
 import Portfolio from "./features/Portfolio";
+import PageFooter from "./common/PageFooter";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <GlobalStyle />
       <PersonalHomepage/>
       <Portfolio/>
+      <PageFooter/>
     </ThemeProvider>
   );
 }
