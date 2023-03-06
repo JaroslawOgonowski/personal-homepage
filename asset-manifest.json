@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-homepage/static/css/main.31d6cfe0.css",
-    "main.js": "/personal-homepage/static/js/main.827bd56b.js",
+    "main.js": "/personal-homepage/static/js/main.0cb36f12.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
+    "static/media/JarosławOgonowski.jpg": "/personal-homepage/static/media/JarosławOgonowski.2afe43edad5b64877843.jpg",
+    "static/media/ToggleOff-light.svg": "/personal-homepage/static/media/ToggleOff-light.3f28b0e1b24424a9878f7106dcf99739.svg",
+    "static/media/portfolioIcon.svg": "/personal-homepage/static/media/portfolioIcon.a9062bf9626a38e8866f20e84ee3d71b.svg",
+    "static/media/Message.svg": "/personal-homepage/static/media/Message.514461521cb8d76b55e16ac430346abb.svg",
     "index.html": "/personal-homepage/index.html",
-    "main.827bd56b.js.map": "/personal-homepage/static/js/main.827bd56b.js.map",
+    "main.0cb36f12.js.map": "/personal-homepage/static/js/main.0cb36f12.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.827bd56b.js"
+    "static/js/main.0cb36f12.js"
   ]
 }
