@@ -3,15 +3,15 @@ import styled from "styled-components";
 export const StyledTile = styled.div`
 width: 592px;
 height: 322px;
-background-color: ${({theme})=> theme.color.white};
+background-color: ${({theme})=> theme.color.sectionBackground};
 margin: 0 auto ;
 text-align: left;
-border: 6px solid rgba(209, 213, 218, 0.3);
-box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
+border: 6px solid ${({theme})=> theme.color.border};
+box-shadow: 0px -2px 50px ${({theme})=> theme.color.shadow}, 0px 16px 58px ${({theme})=> theme.color.shadow};
 border-radius: 4px;
 &:hover{
-    border: 6px solid rgba(3, 102, 214, 0.2);
-    box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
+    border: 6px solid ${({theme})=> theme.color.borderOnHover};
+    box-shadow: 0px -2px 50px rgba${({theme})=> theme.color.shadow}, 0px 16px 58px rgba${({theme})=> theme.color.shadow};
     border-radius: 4px;
 }
 `;
@@ -31,7 +31,7 @@ export const Title = styled.h3`
 margin: 0;
 font-weight: 700;
 font-size: 24px;
-color: ${({theme})=> theme.color.scienceBlue};
+color: ${({theme})=> theme.color.button};
 `;
 
 export const Content = styled.p`
@@ -54,9 +54,9 @@ export const Code = styled.p`
 `;
 export const GHLink = styled.a`
 text-decoration: none;
-color: ${({theme})=> theme.color.scienceBlue};
-border-bottom: 1px solid hsla(212, 97%, 43%, 0.200);
+color: ${({theme})=> theme.color.button};
+border-bottom: 1px solid ${({theme})=> theme.color.borderOnHover};
 &:hover{
-    color: ${({theme})=> theme.color.lighterBlue};
+    color: ${({theme})=> theme.color.buttonHover};
 }
 `;

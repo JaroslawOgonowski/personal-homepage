@@ -25,7 +25,7 @@ line-height: 39px;
 text-decoration: none;
 color: ${({ theme }) => theme.color.mainText};
 &:hover{
-    color: ${({ theme }) => theme.color.scienceBlue}
+    color: ${({ theme }) => theme.color.button}
 }
 `;
 
@@ -33,7 +33,7 @@ export const Content = styled.div`
 margin-top: 24px;
 font-weight: 400;
 font-size: 18px;
-color: ${({ theme }) => theme.color.black};
+color: ${({ theme }) => theme.color.mainText};
 `;
 
 export const SocialLinks = styled.div`
@@ -49,7 +49,7 @@ color: black;
 width: 48px;
 height: 48px;
 &:hover{
-    color: ${({ theme }) => theme.color.scienceBlue};  
+    color: ${({ theme }) => theme.color.button};  
 }
 `;
 

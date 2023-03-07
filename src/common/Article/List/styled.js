@@ -11,7 +11,7 @@ font-size: 18px;
 list-style: none;
 li::before {
     content: "•"; 
-    color: ${({ theme }) => theme.color.scienceBlue};
+    color: ${({ theme }) => theme.color.button};
     padding-right: 16px;
     font-size: 29px;
     }

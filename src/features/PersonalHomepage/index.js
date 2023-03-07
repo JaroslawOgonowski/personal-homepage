@@ -6,8 +6,8 @@ import PageHeader from "../../common/PageHeader"
 import { StyledPage } from "./styled";
 
 const PersonalHomepage = () => {
-    const skillArray = skills
-    const skillToLearnArray = skillsToLearn
+    const skillArray = skills;
+    const skillToLearnArray = skillsToLearn;
     return (
         <StyledPage>
             <PageHeader />
