@@ -14,6 +14,7 @@ right: 100px;
 @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
    top:21.46px;
    right:17.47px;
+   color: ${({theme})=> theme.color.whiteLilac};
    }
 `;
 
