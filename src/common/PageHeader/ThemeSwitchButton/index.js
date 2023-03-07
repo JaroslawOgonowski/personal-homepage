@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectMode, toggleMode } from "./themeSwitchSlice";
 
 export const ThemeSwitchButton = () => {
-    const darkModeOn = useSelector(selectMode)
+    const darkModeOff = useSelector(selectMode)
     const dispatch = useDispatch();
 
     return (
@@ -12,9 +12,9 @@ export const ThemeSwitchButton = () => {
         <ThemeButton 
             onClick={() => dispatch(toggleMode())}
         >
-            <ButtonText>DARK MODE {darkModeOn ? "OFF" : "ON"}</ButtonText>
+            <ButtonText>DARK MODE {darkModeOff ? "ON" : "OFF"}</ButtonText>
             <IconContainer>
-            <ThemeIconBackground><Sun/></ThemeIconBackground>
+            <ThemeIconBackground darkModeOff={!darkModeOff}><Sun/></ThemeIconBackground>
             </IconContainer>
         </ThemeButton>
     )

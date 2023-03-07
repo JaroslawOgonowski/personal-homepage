@@ -5,8 +5,9 @@ export const Wrapper = styled.article`
 max-width: 1216px;
 background-color: ${({theme})=> theme.color.sectionBackground};
 margin: auto;
-box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
+box-shadow: 0px -2px 50px ${({theme})=> theme.color.shadow}, 0px 16px 58px ${({theme})=> theme.color.shadow};
 border-radius: 4px;
+padding-bottom: 32px;
 `;
 
 export const Title = styled.h2`

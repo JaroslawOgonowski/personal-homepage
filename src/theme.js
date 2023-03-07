@@ -11,7 +11,7 @@ export const themeLight = {
         buttonHover: "#2188FF",
         border: "#D1D5DA4D",
         shadow: "#090A3308",
-
+        contrast: "#FFFFFF",
     },
     breakPoint: {
         mobileMax: 767,
@@ -28,9 +28,11 @@ export const themeDark = {
         mainText: "#FFFFFF",
         textSecondary: "#FFFFFF",
         buttonFont: "#FFFFFF",
-        button: "#2188FF",
+        button: "#0366D6",
+        buttonHover: "#2188FF",
         borderOnHover: "#0366D680",
         shadow: "#090A3305",
+        contrast: "#000000",
     },
     breakPoint: {
         mobileMax: 767,

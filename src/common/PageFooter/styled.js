@@ -45,7 +45,7 @@ margin-top: 56px;
 
 
 export const SocialLink = styled.a`
-color: black;
+color: ${({ theme }) => theme.color.mainText};
 width: 48px;
 height: 48px;
 &:hover{

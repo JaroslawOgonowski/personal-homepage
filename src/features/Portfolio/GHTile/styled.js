@@ -46,12 +46,11 @@ height: 75px;
 `;
 
 export const Demo = styled.p`
-
 `;
 
 export const Code = styled.p`
-
 `;
+
 export const GHLink = styled.a`
 text-decoration: none;
 color: ${({theme})=> theme.color.button};

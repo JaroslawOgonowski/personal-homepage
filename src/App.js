@@ -9,10 +9,10 @@ import { selectMode } from "./common/PageHeader/ThemeSwitchButton/themeSwitchSli
 
 
 function App() {
-  const darkModeOn = useSelector(selectMode);            
+  const darkModeOff = useSelector(selectMode);            
      
   return (
-    <ThemeProvider theme={darkModeOn? themeLight : themeDark}>
+    <ThemeProvider theme={darkModeOff? themeLight : themeDark}>
     <GlobalStyle />
       <PersonalHomepage/>
       <Portfolio/>
