@@ -2,7 +2,11 @@ import styled from "styled-components";
 
 export const StyledPageFooter = styled.footer`
 margin-top: 120px;
-width: 691px;
+max-width: 691px;
+@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+    margin-left: 16px;
+    margin-right: 16px;
+}
 `;
 
 export const StyledParahraph = styled.p`
@@ -53,7 +57,7 @@ display: flex;
 flex-direction: row;
 align-content: flex-start;
 justify-content: flex-start;
-width: 1216px;
+max-width: 1216px;
 margin: auto;
 margin-bottom: 109px;
 `;

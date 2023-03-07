@@ -21,6 +21,9 @@ padding: 56px;
 font-weight: 400;
 font-size: 18px;
 color: ${({theme})=> theme.color.textSecondary};
+@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+     padding: 24px;
+     }
 `;
 
 

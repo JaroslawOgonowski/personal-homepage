@@ -30,6 +30,6 @@ flex-direction: row;
 flex-wrap: wrap;
 align-content: space-between;
 justify-content: space-between;
-width: 1216px;
+max-width: 1216px;
 gap: 8px;
 `;

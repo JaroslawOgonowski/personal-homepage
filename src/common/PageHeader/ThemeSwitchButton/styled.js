@@ -11,6 +11,10 @@ transition: 1s;
 position: absolute;
 top: 120px;
 right: 100px;
+@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+   top:21.46px;
+   right:17.47px;
+   }
 `;
 
 export const ToogleThemeIcon = styled.img`

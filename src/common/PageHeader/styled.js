@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { MailLink } from "../PageFooter/styled";
 
 export const Wrapper = styled.div`
 max-width: 1216px;
@@ -9,12 +8,23 @@ display: grid;
 grid-template-columns: auto 1fr auto;
 grid-gap: 66px;
 align-items: center;
+@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0;
+        
+    }
 `;
 
 export const Photo = styled.img`
-width: 398px;
-height: 398px;
+max-width: 398px;
+max-height: 398px;
 border-radius: 50%;
+@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+    align-self: start;
+    width: 132.67px;
+    height: 132.67px;
+    }
 `;
 
 export const Herald = styled.div`
@@ -36,6 +46,10 @@ font-size: 20px;
 font-weight: 400;
 line-height: 28px;
 display: grid;
+@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+     margin-left: 16px;
+     margin-right: 16px;
+}
 `;
 
 export const HireMeButton = styled.button`
@@ -61,7 +75,7 @@ transition: 0.5s;
     border: 1px solid rgba(209, 213, 218, 0.3);
     box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
     border-radius: 4px;
-  }
+     }
 `;
 
 export const HireMeIcon = styled.img`

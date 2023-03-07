@@ -15,6 +15,10 @@ li::before {
     padding-right: 16px;
     font-size: 29px;
     }
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+      display: flex;
+      flex-direction: column;
+    }
 `;
 export const ListItem = styled.li`
 max-width: 290px;
