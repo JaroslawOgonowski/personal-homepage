@@ -1,15 +1,18 @@
 import { configureStore } from "@reduxjs/toolkit";
 import createSagaMiddleware from "@redux-saga/core";
-import mySlice from "./mySlice";
+import themeSwitchSlice from "./common/PageHeader/ThemeSwitchButton/themeSwitchSlice";
+import rootSaga from "./rootSaga";
+
+
 const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
     reducer: {
-        a: mySlice,
+    themeSwitch: themeSwitchSlice,
     },
     middleware: [sagaMiddleware],
 });
 
-sagaMiddleware.run();
+sagaMiddleware.run(rootSaga);
 
 export default store;
