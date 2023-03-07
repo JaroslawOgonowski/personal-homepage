@@ -13,8 +13,8 @@ export const ThemeSwitchButton = () => {
             onClick={() => dispatch(toggleMode())}
         >
             <ButtonText>DARK MODE {darkModeOn ? "OFF" : "ON"}</ButtonText>
-            <IconContainer darkModeOn={darkModeOn}>
-            <ThemeIconBackground darkModeOn={darkModeOn}><Sun/></ThemeIconBackground>
+            <IconContainer>
+            <ThemeIconBackground><Sun/></ThemeIconBackground>
             </IconContainer>
         </ThemeButton>
     )

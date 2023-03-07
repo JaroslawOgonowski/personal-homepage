@@ -6,6 +6,7 @@ display: flex;
 align-items: center;
 align-self: flex-start;
 border: none;
+transition: 1s;
 background-color: ${({ theme }) => theme.color.mainBackground};
 position: absolute;
 top: 120px;
