@@ -1,9 +1,10 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, css } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 html {
   font-family: 'Inter', sans-serif;
-  color:${({theme})=> theme.color.textBlack};
-  background-color: ${({theme})=> theme.color.whiteLilac};
+  color:${({ theme }) => theme.color.mainText};
+  background-color: ${({ theme }) => theme.color.whiteLilac};
+  transition: 1s;
 }
 
 *, ::after, ::before {

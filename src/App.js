@@ -7,6 +7,7 @@ import PageFooter from "./common/PageFooter";
 
 
 function App() {
+
   return (
     <ThemeProvider theme={theme}>
     <GlobalStyle />

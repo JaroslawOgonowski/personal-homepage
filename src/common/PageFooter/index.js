@@ -1,4 +1,4 @@
-import { Content, FooterTitle, MailLink, SocialLink, SocialLinks, StyledPageFooter, StyledParahraph, Wrapper } from "./styled";
+import { Content, MailLink, SocialLink, SocialLinks, StyledPageFooter, StyledParahraph, Wrapper } from "./styled";
 import { ReactComponent as Facebook } from "./socialIcons/Facebook_black.svg";
 import { ReactComponent as Instagram } from "./socialIcons/Instagram_black.svg";
 import { ReactComponent as Github } from "./socialIcons/Github_black.svg";
