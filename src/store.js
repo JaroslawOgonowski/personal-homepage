@@ -1,14 +1,16 @@
 import { configureStore } from "@reduxjs/toolkit";
 import createSagaMiddleware from "@redux-saga/core";
-import themeSwitchSlice from "./common/PageHeader/ThemeSwitchButton/themeSwitchSlice";
+import themeSwitchReducer from "./common/PageHeader/ThemeSwitchButton/themeSwitchSlice";
 import rootSaga from "./rootSaga";
+import portfolioReducer from "./features/Portfolio/portfolioSlice";
 
 
 const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
     reducer: {
-    themeSwitch: themeSwitchSlice,
+    themeSwitch: themeSwitchReducer,
+    portfolio: portfolioReducer,
     },
     middleware: [sagaMiddleware],
 });
