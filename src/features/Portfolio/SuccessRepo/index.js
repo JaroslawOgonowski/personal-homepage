@@ -1,6 +1,6 @@
 import { Code, Container, Content, Demo, GHLink, StyledTile, Title } from "./styled";
 
-const GHTile = () => {
+const SuccesRepo = () => {
     return (
         <StyledTile>
             <Container>
@@ -15,4 +15,4 @@ const GHTile = () => {
     )
 };
 
-export default GHTile;
+export default SuccesRepo;
