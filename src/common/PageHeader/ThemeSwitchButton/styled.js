@@ -11,10 +11,11 @@ position: absolute;
 top: 120px;
 right: 100px;
 cursor: pointer;
-@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
-   top:21.46px;
-   right:17.47px;
+@media (max-width: 1300px) {
+   top:20px;
+   right:20px;
    }
+   
 `;
 
 export const ButtonText = styled.p`

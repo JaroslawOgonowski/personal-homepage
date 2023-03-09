@@ -1,7 +1,8 @@
-import { Content, Herald, HireMeButton, HireMeIcon, Link, Paragraph, Photo, Title, Wrapper } from "./styled";
+import { Content, Herald, HireMeIcon, Link, Paragraph, Photo, Title, Wrapper } from "./styled";
 import photo from "./images/JarosławOgonowski.jpg"
 import hireMeIcon from "./images/Message.svg"
 import { ThemeSwitchButton } from "./ThemeSwitchButton";
+import { ButtonBlueLink } from "../ButtonBlueLink/styled";
 
 const PageHeader = () => (
     <Wrapper>
@@ -14,10 +15,10 @@ const PageHeader = () => (
                 I'm looking for a job where I can improve my skills and acquire completely new ones.
             </Paragraph>
             <Link href="mailTo: dza.ogonowski@gmail.com">
-                <HireMeButton>
+                <ButtonBlueLink>
                     <HireMeIcon src={hireMeIcon} alt="" />
                     Hire Me
-                </HireMeButton>
+                </ButtonBlueLink>
             </Link>
         </Content>
         <ThemeSwitchButton />

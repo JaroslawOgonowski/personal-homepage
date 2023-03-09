@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme } from "../../theme";
+import { theme } from "../../core/theme";
 
 export const Wrapper = styled.article`
 max-width: 1216px;

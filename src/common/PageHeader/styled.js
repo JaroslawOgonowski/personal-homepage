@@ -4,10 +4,12 @@ export const Wrapper = styled.div`
 max-width: 1216px;
 margin: auto;
 margin-top: 120px;
-display: grid;
-grid-template-columns: auto 1fr auto;
-grid-gap: 66px;
-align-items: center;
+display: flex;
+gap: 66px;
+//display: grid;
+//grid-template-columns: auto 1fr auto;
+//grid-gap: 66px;
+//align-items: center;
 @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
       display: flex;
       flex-direction: column;
@@ -55,31 +57,6 @@ display: grid;
      margin-left: 16px;
      margin-right: 16px;
 }
-`;
-
-export const HireMeButton = styled.button`
-padding: 12px 16px;
-text-align: center;
-background-color: ${({ theme }) => theme.color.button};
-color: ${({ theme }) => theme.color.buttonFont};;
-font-size: 20.06px;
-font-weight: 600;
-border-radius: 4px;
-border: 1px solid;
-border-color:${({ theme }) => theme.color.border};
-max-width: max-content;
-transition: 0.5s;
-&:hover{
-    border: 1px solid ${({ theme }) => theme.color.border};
-    border-radius: 4px;;
-    cursor: pointer;
-    box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;  
-    }
-&::selection{
-    border: 1px solid ${({ theme }) => theme.color.border};
-    box-shadow: inset 0px 2px 0px ${({ theme }) => theme.color.shadow};
-    border-radius: 4px;
-     }
 `;
 
 export const HireMeIcon = styled.img`

@@ -19,6 +19,7 @@ margin-bottom: 24px;
 `;
 
 export const MailLink = styled.a`
+word-break: break-all;
 font-weight: 900;
 font-size: 32px;
 line-height: 39px;

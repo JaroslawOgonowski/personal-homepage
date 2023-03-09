@@ -1,7 +1,7 @@
 import { ThemeButton, IconContainer, ThemeIconBackground, ButtonText } from "./styled"
 import { ReactComponent as Sun } from "./graphic/Sun.svg";
 import { useDispatch, useSelector } from "react-redux";
-import { selectMode, toggleMode } from "./themeSwitchSlice";
+import { selectMode, toggleMode } from "../../../features/PersonalHomepage/themeSwitchSlice";
 
 export const ThemeSwitchButton = () => {
     const darkModeOff = useSelector(selectMode)

@@ -1,28 +1,28 @@
 import { Container, Description, Link, LinkLabel, List, StyledTile, Title, } from "./styled";
 
 export const SuccesRepo = ({ repositories }) => {
-    
+
     return (
         <List>
-            {repositories && repositories.map((repository) => (
-                <StyledTile key={repository.id}>
+            {repositories && repositories.map(({ id, name, description, homepage, html_url }) => (
+                <StyledTile key={id}>
                     <Container>
-                        <Title>{(repository.name[0].toUpperCase() + repository.name.substring(1)).replaceAll("-", " ")} </Title>
-                        <Description>{repository.description}</Description>
+                        <Title>{(name[0].toUpperCase()+name.substring(1)).replaceAll("-", " ")} </Title>
+                        <Description>{description}</Description>
                         <LinkLabel>
                             Demo:{" "}
-                            <Link href={repository.homepage} target="_blank">{repository.homepage}</Link>
+                            <Link href={homepage} target="_blank">{homepage}</Link>
                         </LinkLabel>
                         <LinkLabel>
                             Code:{" "}
-                            <Link href={repository.html_url} target="_blank">
-                                {repository.html_url}
+                            <Link href={html_url} target="_blank">
+                                {html_url}
                             </Link>
                         </LinkLabel>
                     </Container>
                 </StyledTile>
             )
-            )};
+            )}
         </List>
     );
 };

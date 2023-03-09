@@ -1,3 +1,4 @@
+import { ButtonBlueLink } from "../../../../common/ButtonBlueLink/styled";
 import { HireMeButton } from "../../../../common/PageHeader/styled";
 import { ReactComponent as Danger } from "./Danger.svg";
 import { Container, ErrorText, ErrorTitle } from "./styled";
@@ -12,7 +13,7 @@ export const ErrorRepo = () => {
              You can check them directly on Github.  
             </ErrorText>
             
-            <a href="https://github.com/JaroslawOgonowski"><HireMeButton>Go to github</HireMeButton></a>
+            <a href="https://github.com/JaroslawOgonowski"><ButtonBlueLink>Go to github</ButtonBlueLink></a>
         </Container>
     )
 };
