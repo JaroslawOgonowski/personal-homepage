@@ -18,7 +18,6 @@ margin-bottom: 24px;
 `;
 
 export const MailLink = styled.a`
-word-break: break-all;
 font-weight: 900;
 font-size: 32px;
 line-height: 39px;
@@ -27,6 +26,9 @@ color: ${({ theme }) => theme.color.mainText};
 &:hover{
     color: ${({ theme }) => theme.color.button}
 }
+@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+    font-size: 18px;
+};
 `;
 
 export const Content = styled.div`
