@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.5340000f.js",
+    "main.js": "/personal-homepage/static/js/main.59fd04d2.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
-    "static/media/JarosławOgonowski.jpg": "/personal-homepage/static/media/JarosławOgonowski.2afe43edad5b64877843.jpg",
+    "static/media/JarosławOgonowski.jpg": "/personal-homepage/static/media/JarosławOgonowski.d5b8efb976bad1a3035e.jpg",
     "static/media/Instagram_black.svg": "/personal-homepage/static/media/Instagram_black.87732ce7a95cf2f174532f5fed6dd654.svg",
     "static/media/Sun.svg": "/personal-homepage/static/media/Sun.c936903e1bb9ba21c12df2492220a6de.svg",
     "static/media/Github_black.svg": "/personal-homepage/static/media/Github_black.f2199b4d0b7c0ad139ea3b06317af5bc.svg",
     "static/media/portfolioIcon.svg": "/personal-homepage/static/media/portfolioIcon.a9062bf9626a38e8866f20e84ee3d71b.svg",
+    "static/media/Danger.svg": "/personal-homepage/static/media/Danger.457bab9844e49da22fdd30aaa1c6f510.svg",
     "static/media/LinkedIN_black.svg": "/personal-homepage/static/media/LinkedIN_black.aa721be80bc7da936206abfba931dfbb.svg",
     "static/media/Message.svg": "/personal-homepage/static/media/Message.514461521cb8d76b55e16ac430346abb.svg",
     "index.html": "/personal-homepage/index.html",
     "static/media/Facebook_black.svg": "/personal-homepage/static/media/Facebook_black.4fcd2e5a629788c48eff881bf1586f1a.svg",
-    "main.5340000f.js.map": "/personal-homepage/static/js/main.5340000f.js.map",
+    "static/media/icon-spinner.svg": "/personal-homepage/static/media/icon-spinner.88a075cf3a7f1af15999cb03bb3a0360.svg",
+    "main.59fd04d2.js.map": "/personal-homepage/static/js/main.59fd04d2.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.5340000f.js"
+    "static/js/main.59fd04d2.js"
   ]
 }
