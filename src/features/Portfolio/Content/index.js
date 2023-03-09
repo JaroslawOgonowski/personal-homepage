@@ -1,6 +1,6 @@
 import { ErrorRepo } from "./ErrorRepo";
 import { LoadingRepo } from "./LoadingRepo";
-import { SuccesRepo } from "../SuccessRepo";
+import { SuccesRepo } from "./SuccessRepo";
 
 
 export const Content = ({ state, repositories }) => {

@@ -1,13 +1,13 @@
 import { Container, Description, Link, LinkLabel, List, StyledTile, Title, } from "./styled";
 
 export const SuccesRepo = ({ repositories }) => {
-    let formatedName = (repository.name[0].toUpperCase() + repository.name.substring(1)).replaceAll("-", " ");
+    
     return (
         <List>
             {repositories && repositories.map((repository) => (
                 <StyledTile key={repository.id}>
                     <Container>
-                        <Title>{formatedName}</Title>
+                        <Title>{(repository.name[0].toUpperCase() + repository.name.substring(1)).replaceAll("-", " ")} </Title>
                         <Description>{repository.description}</Description>
                         <LinkLabel>
                             Demo:{" "}
