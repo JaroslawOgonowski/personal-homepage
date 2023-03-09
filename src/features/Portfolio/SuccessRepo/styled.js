@@ -1,10 +1,20 @@
 import styled from "styled-components";
-export const List = styled.ul``;
-export const Item = styled.li``;
 
-/*export const StyledTile = styled.div`
-width: 592px;
-height: 322px;
+export const List = styled.ul`
+margin: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: space-between;
+justify-content: space-between;
+max-width: 1216px;
+gap: 8px;
+list-style: none;
+padding: 0;
+`;
+
+export const StyledTile = styled.li`
+max-width: 592px;
 background-color: ${({theme})=> theme.color.sectionBackground};
 margin: 0 auto ;
 text-align: left;
@@ -27,8 +37,6 @@ color: ${({theme})=> theme.color.textSecondary};
      padding: 24px;
      }
 `;
-export const Wrapper = styled.section``;
-
 
 export const Title = styled.h3`
 margin: 0;
@@ -37,28 +45,28 @@ font-size: 24px;
 color: ${({theme})=> theme.color.button};
 `;
 
-export const Content = styled.p`
+export const Description = styled.p`
 word-break: break-word;
 font-weight: 400;
 font-size: 18px;
-line-height: 140%;
 margin-top: 24px;
 margin-bottom: 24px;
 overflow-x: auto;
-height: 75px;
 `;
 
-export const Demo = styled.p`
+export const LinkLabel = styled.div`
+margin-bottom: 8px;
+word-break: break-all;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
 `;
 
-export const Code = styled.p`
-`;
-
-export const GHLink = styled.a`
+export const Link = styled.a`
 text-decoration: none;
 color: ${({theme})=> theme.color.button};
 border-bottom: 1px solid ${({theme})=> theme.color.borderOnHover};
 &:hover{
     color: ${({theme})=> theme.color.buttonHover};
 }
-`;*/
+`;

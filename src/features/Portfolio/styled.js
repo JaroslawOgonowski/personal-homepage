@@ -23,13 +23,3 @@ margin: auto;
 text-align: center;
 `;
 
-export const GHTiles = styled.div`
-margin: auto;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-align-content: space-between;
-justify-content: space-between;
-max-width: 1216px;
-gap: 8px;
-`;
