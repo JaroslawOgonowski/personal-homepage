@@ -1,5 +1,5 @@
 import { ThemeButton, IconContainer, ThemeIconBackground, ButtonText } from "./styled"
-import { ReactComponent as Sun } from "./graphic/Sun.svg";
+import { ReactComponent as Sun } from "./images/Sun.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { selectMode, toggleMode } from "../../../features/PersonalHomepage/themeSwitchSlice";
 

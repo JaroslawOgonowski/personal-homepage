@@ -1,12 +1,11 @@
-
-import { Container, IconSpinner, LoadingText } from "./styled";
+import { IconSpinner, LoadingText } from "./styled";
 
 export const LoadingRepo = () => {
     return (
-    <Container>
-        <LoadingText>Please wait, projects are being loaded...</LoadingText>
-        <IconSpinner />
-    </Container>
-)
+        <>
+            <LoadingText>Please wait, projects are being loaded...</LoadingText>
+            <IconSpinner />
+        </>
+    )
 };
 export default LoadingRepo;

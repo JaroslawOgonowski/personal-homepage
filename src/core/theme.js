@@ -16,6 +16,7 @@ export const themeLight = {
     breakPoint: {
         mobileMax: 767,
         galaxyA51: 914,
+        maxContent: 1300,
     },
 };
 
@@ -37,7 +38,8 @@ export const themeDark = {
     breakPoint: {
         mobileMax: 767,
         galaxyA51: 914,
-},
+        maxContent: 1300,
+    },
 };
 
 

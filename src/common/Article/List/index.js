@@ -1,14 +1,14 @@
 import { ListItem, StyledList } from "./styled";
 
 const List = (skills) => {
-return(
+  return (
     <StyledList>
       {skills.map((skill) => (
         <ListItem key={skill}>
-          {skill} 
-          </ListItem>
+          {skill}
+        </ListItem>
       ))}
-          </StyledList>
-          
-)};
+    </StyledList>
+  )
+};
 export default List;

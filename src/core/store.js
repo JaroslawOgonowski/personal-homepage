@@ -4,13 +4,11 @@ import themeSwitchReducer from "../features/PersonalHomepage/themeSwitchSlice";
 import rootSaga from "./rootSaga";
 import portfolioReducer from "../features/Portfolio/portfolioSlice";
 
-
 const sagaMiddleware = createSagaMiddleware();
-
 const store = configureStore({
     reducer: {
-    themeSwitch: themeSwitchReducer,
-    portfolio: portfolioReducer,
+        themeSwitch: themeSwitchReducer,
+        portfolio: portfolioReducer,
     },
     middleware: [sagaMiddleware],
 });

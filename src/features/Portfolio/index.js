@@ -9,22 +9,22 @@ const Portfolio = () => {
     const dispatch = useDispatch();
     const status = useSelector(selectRepositoriesStatus);
     const repositories = useSelector(selectRepositories);
-    
+
     useEffect(() => {
         dispatch((fetchRepositories()));
     }, [dispatch]);
 
     return (
         <section>
-        <Wrapper>
-            <PortfolioIcon src={portfolioIcon} alt="" />
-            <Title>Portfolio</Title>
-            <SubTitle>My recent projects</SubTitle>
-            <Content
-                state={status}
-                repositories={repositories}
-            />
-        </Wrapper></section>
+            <Wrapper>
+                <PortfolioIcon src={portfolioIcon} alt="" />
+                <Title>Portfolio</Title>
+                <SubTitle>My recent projects</SubTitle>
+                <Content
+                    state={status}
+                    repositories={repositories}
+                />
+            </Wrapper></section>
     );
 };
 

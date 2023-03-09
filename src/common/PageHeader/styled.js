@@ -6,15 +6,10 @@ margin: auto;
 margin-top: 120px;
 display: flex;
 gap: 66px;
-//display: grid;
-//grid-template-columns: auto 1fr auto;
-//grid-gap: 66px;
-//align-items: center;
 @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
       display: flex;
       flex-direction: column;
-      margin-top: 0;
-        
+      margin-top: 0;        
     }
 `;
 
@@ -23,10 +18,10 @@ max-width: 398px;
 max-height: 398px;
 border-radius: 50%;
 @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
-    align-self: start;
-    width: 132.67px;
-    height: 132.67px;
-    }
+    align-self: flex-start;
+    margin-left: 16px;
+    max-width: 60%;
+    };
 `;
 
 export const Herald = styled.div`
@@ -51,11 +46,10 @@ export const Content = styled.div`
 font-size: 20px;
 font-weight: 400;
 line-height: 28px;
-
 display: grid;
 @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
-     margin-left: 16px;
-     margin-right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 `;
 

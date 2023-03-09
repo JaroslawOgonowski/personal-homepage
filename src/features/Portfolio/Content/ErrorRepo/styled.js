@@ -1,11 +1,5 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-
-`;
-export const Danger = styled.img`
-
-`;
 export const ErrorTitle = styled.h3`
 font-weight: 700;
 font-size: 24px;

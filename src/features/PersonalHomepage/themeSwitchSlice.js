@@ -9,11 +9,10 @@ const themeSwitchSlice = createSlice({
         toggleMode: state => {
             state.darkModeOff = !state.darkModeOff;
         }
-    },    
+    },
 });
 
-export const {toggleMode} = themeSwitchSlice.actions;
-
+export const { toggleMode } = themeSwitchSlice.actions;
 export const selectModeState = state => state.themeSwitch;
 export const selectMode = state => selectModeState(state).darkModeOff;
 

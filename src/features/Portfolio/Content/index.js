@@ -2,7 +2,6 @@ import { ErrorRepo } from "./ErrorRepo";
 import { LoadingRepo } from "./LoadingRepo";
 import { SuccesRepo } from "./SuccessRepo";
 
-
 export const Content = ({ state, repositories }) => {
     switch (state) {
         case "initial":
@@ -14,6 +13,6 @@ export const Content = ({ state, repositories }) => {
         case "success":
             return <SuccesRepo repositories={repositories} />
         default:
-            throw new Error (`incorrect state: ${state}`)
-    }
+            throw new Error(`incorrect state: ${state}`)
+    };
 };

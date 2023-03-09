@@ -19,7 +19,7 @@ export const skills = [
   "Trello",
   "Teamwork",
   "Scrum",
-  "Figma", 
+  "Figma",
   "Working with API (fetch, axios)",
   "GitHub Pull Requests & Review",
 ];

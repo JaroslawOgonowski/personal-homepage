@@ -11,7 +11,6 @@ margin-left: 0;
 margin-right: 0;
 `;
 
-
 export const SubTitle = styled.h3`
 margin: 0 0 60px;
 font-weight: 400;

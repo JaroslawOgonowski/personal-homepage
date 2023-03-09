@@ -3,11 +3,10 @@ import styled from "styled-components";
 export const StyledPageFooter = styled.footer`
 margin-top: 120px;
 max-width: 691px;
-@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) 
-{
+@media (max-width: ${({ theme }) => theme.breakPoint.maxContent}px) {
     margin-left: 16px;
     margin-right: 16px;
-}
+};
 `;
 
 export const StyledParahraph = styled.p`
@@ -51,7 +50,7 @@ width: 48px;
 height: 48px;
 &:hover{
     color: ${({ theme }) => theme.color.button};  
-}
+};
 `;
 
 export const Wrapper = styled.div`
