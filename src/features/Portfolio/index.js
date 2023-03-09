@@ -1,42 +1,34 @@
-import { GHTiles, PortfolioIcon, SubTitle, Title, Wrapper } from "./styled";
-import portfolioIcon from "./portfolioIcon.svg"
-import GHTile from "./SuccessRepo";
+import { PortfolioIcon, SubTitle, Title, Wrapper } from "./styled";
+import portfolioIcon from "./portfolioIcon.svg";
 import { useDispatch, useSelector } from "react-redux";
+import { fetchRepositories, selectRepositories, selectRepositoriesStatus } from "./portfolioSlice";
 import { useEffect } from "react";
-import { fetchRepositories, selectRepositoriesStatus } from "./portfolioSlice";
-import LoadingRepo from "./LoadingRepo";
-import ErrorRepo from "./ErrorRepo";
-import SuccesRepo from "./SuccessRepo";
+import { Content } from "./Content";
+
 const Portfolio = () => {
     const dispatch = useDispatch();
-
+    const status = useSelector(selectRepositoriesStatus);
+    const repositories = useSelector(selectRepositories);
+    
     useEffect(() => {
         dispatch((fetchRepositories()));
     }, [dispatch]);
 
-    const status = useSelector(selectRepositoriesStatus);
     return (
+        <section>
         <Wrapper>
             <PortfolioIcon src={portfolioIcon} alt="" />
             <Title>Portfolio</Title>
             <SubTitle>My recent projects</SubTitle>
-            <>
-                {status === "loading" ? (<SuccesRepo />) :
-                    (status === "error") ? (<ErrorRepo />) :
-                        (<LoadingRepo />)
-                }
-            </>
-        </Wrapper>
-    )
+            <Content
+                state={status}
+                repositories={repositories}
+            />
+        </Wrapper></section>
+    );
 };
 
 export default Portfolio;
 
 
 
-<GHTiles>
-    <GHTile></GHTile>
-    <GHTile></GHTile>
-    <GHTile></GHTile>
-    <GHTile></GHTile>
-</GHTiles>

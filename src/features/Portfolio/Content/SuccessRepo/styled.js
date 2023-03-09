@@ -1,6 +1,8 @@
 import styled from "styled-components";
+export const List = styled.ul``;
+export const Item = styled.li``;
 
-export const StyledTile = styled.div`
+/*export const StyledTile = styled.div`
 width: 592px;
 height: 322px;
 background-color: ${({theme})=> theme.color.sectionBackground};
@@ -25,6 +27,7 @@ color: ${({theme})=> theme.color.textSecondary};
      padding: 24px;
      }
 `;
+export const Wrapper = styled.section``;
 
 
 export const Title = styled.h3`
@@ -58,4 +61,4 @@ border-bottom: 1px solid ${({theme})=> theme.color.borderOnHover};
 &:hover{
     color: ${({theme})=> theme.color.buttonHover};
 }
-`;
+`;*/

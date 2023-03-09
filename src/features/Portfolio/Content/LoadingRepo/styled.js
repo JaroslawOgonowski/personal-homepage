@@ -15,7 +15,11 @@ export const Container = styled.div`
 `;
 
 export const LoadingText = styled.p`
-
+font-weight: 400;
+font-size: 20px;
+line-height: 60%;
+color: ${({ theme }) => theme.color.mainText};
+margin-bottom: 32px;
 `;
 
 export const IconSpinner = styled(Icon)`
