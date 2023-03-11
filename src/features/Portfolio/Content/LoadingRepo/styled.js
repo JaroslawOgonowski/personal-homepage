@@ -11,17 +11,17 @@ const rotate = keyframes`
 `;
 
 export const LoadingText = styled.p`
-font-weight: 400;
-font-size: 20px;
-line-height: 60%;
-color: ${({ theme }) => theme.color.mainText};
-margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60%;
+  color: ${({ theme }) => theme.color.mainText};
+  margin-bottom: 32px;
 `;
 
 export const IconSpinner = styled(Icon)`
-margin-top: 40px; 
-max-width: 140px;
-animation: ${rotate} 1.5s linear infinite;
+  margin-top: 40px; 
+  max-width: 140px;
+  animation: ${rotate} 1.5s linear infinite;
   @media(max-width:${({ theme }) => theme.breakPoint.mobileMax}px) {
     max-width: 80px;
   };

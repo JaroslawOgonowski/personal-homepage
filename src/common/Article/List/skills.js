@@ -23,5 +23,3 @@ export const skills = [
   "Working with API (fetch, axios)",
   "GitHub Pull Requests & Review",
 ];
-
-export default skills;

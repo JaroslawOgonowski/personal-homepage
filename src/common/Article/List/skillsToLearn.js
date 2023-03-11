@@ -5,5 +5,3 @@ export const skillsToLearn = [
   "Wordpress",
   "SCSS",
 ];
-
-export default skillsToLearn;

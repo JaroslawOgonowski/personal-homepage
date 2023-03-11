@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const StyledPageFooter = styled.footer`
 margin-top: 120px;
 max-width: 691px;
-@media (max-width: ${({ theme }) => theme.breakPoint.maxContent}px) {
+    @media (max-width: ${({ theme }) => theme.breakPoint.maxContent}px) {
     margin-left: 16px;
     margin-right: 16px;
-};
+    };
 `;
 
 export const StyledParahraph = styled.p`
@@ -23,12 +23,13 @@ font-size: 32px;
 line-height: 39px;
 text-decoration: none;
 color: ${({ theme }) => theme.color.mainText};
-&:hover{
+transition: 0.5s;
+    &:hover{
     color: ${({ theme }) => theme.color.button}
-}
-@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+    };
+    @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
     font-size: 18px;
-};
+    };
 `;
 
 export const Content = styled.div`
@@ -47,22 +48,23 @@ margin-top: 56px;
 
 
 export const SocialLink = styled.a`
-color: ${({ theme }) => theme.color.mainText};
-width: 48px;
-height: 48px;
-&:hover{
-    color: ${({ theme }) => theme.color.button};  
-};
+    color: ${({ theme }) => theme.color.mainText};
+    width: 48px;
+    height: 48px;
+    transition: 0.5s;
+    &:hover{
+        color: ${({ theme }) => theme.color.button};  
+    };
 `;
 
 export const Wrapper = styled.div`
-display: flex;
-flex-direction: row;
-align-content: flex-start;
-justify-content: flex-start;
-max-width: 1216px;
-margin: auto;
-margin-bottom: 109px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    max-width: 1216px;
+    margin: auto;
+    margin-bottom: 109px;
 `;
 
 
