@@ -6,6 +6,21 @@ It's not just a nice table with pictures - the project checks most of the techno
 I invite you to take a look at the page  👇
 https://jaroslawogonowski.github.io/personal-homepage/
 
+![Currency calculator- react](./public/PersonalHomepage.gif)
+
+## Technologies used:
+- HTML
+- CSS
+- Styled Components
+- JavaScript
+- React
+- Axios
+- useEffect
+- custom hooks
+- async
+- GlobalStyle
+- Redux-Saga
+- Redux (Toolkit)
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
