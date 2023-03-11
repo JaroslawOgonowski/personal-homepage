@@ -20,11 +20,8 @@ cursor: pointer;
 
 export const ButtonText = styled.p`
 color: ${({ theme }) => theme.color.textSecondary};
-@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px ) {
+@media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
    display: none;
-   }
-@media (max-width: ${({ theme }) => theme.breakPoint.galaxyA51}px ) {
-   display: none;   
    }
 `;
 
