@@ -1,30 +1,25 @@
 import styled, { css } from "styled-components";
 
 export const ThemeButton = styled.button`
-display: flex;
-align-items: center;
-align-self: flex-start;
 border: none;
+justify-self: flex-end;
+display: flex;
 transition: 1s;
 background-color: ${({ theme }) => theme.color.mainBackground};
-position: absolute;
-top: 120px;
-right: 100px;
 cursor: pointer;
-@media (max-width: 1300px) {
-   top:20px;
-   right:20px;
+@media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px) {
+   position: absolute;
+   top: 20px;
+   right: 20px;
    }
-   
 `;
 
 export const ButtonText = styled.p`
 color: ${({ theme }) => theme.color.textSecondary};
-@media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+@media (max-width: ${({ theme }) => theme.breakPoint.galaxyA51}px) {
    display: none;
    }
 `;
-
 
 export const IconContainer = styled.div`
 margin-left: 12.47px;
@@ -51,8 +46,8 @@ transition: 1s;
 ${({ darkModeOff }) => darkModeOff && css`
 transform: translateX(22px);
 `}
-
 `;
+
 export const Sun = styled.img`
 width: 20px;
 `;

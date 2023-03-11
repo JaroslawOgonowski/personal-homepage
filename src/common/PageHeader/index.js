@@ -5,9 +5,10 @@ import { ThemeSwitchButton } from "./ThemeSwitchButton";
 import { ButtonBlueLink } from "../ButtonBlueLink/styled";
 
 const PageHeader = () => (
-    <Wrapper>
+    <Wrapper>        
         <Photo src={photo} alt="Jarosław Ogonowski" />
         <Content>
+            <ThemeSwitchButton />
             <Herald>This is</Herald>
             <Title>Jarosław Ogonowski</Title>
             <Paragraph>
@@ -21,7 +22,7 @@ const PageHeader = () => (
                 </ButtonBlueLink>
             </Link>
         </Content>
-        <ThemeSwitchButton />
+        
     </Wrapper>
 );
 

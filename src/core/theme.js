@@ -1,4 +1,11 @@
+const breakPoint = {
+    mobileMax: 767,
+    galaxyA51: 914,
+    maxContent: 1300,
+};
+
 export const themeLight = {
+    breakPoint,
     color: {
         mainBackground: "#FBFBFE",
         sectionBackground: "#FFFFFF",
@@ -13,14 +20,10 @@ export const themeLight = {
         shadow: "#090A3308",
         contrast: "#FFFFFF",
     },
-    breakPoint: {
-        mobileMax: 767,
-        galaxyA51: 914,
-        maxContent: 1300,
-    },
 };
 
 export const themeDark = {
+    breakPoint,
     color: {
         mainBackground: "#252525",
         sectionBackground: "#363636B8",
@@ -35,13 +38,7 @@ export const themeDark = {
         shadow: "#090A3305",
         contrast: "#000000",
     },
-    breakPoint: {
-        mobileMax: 767,
-        galaxyA51: 914,
-        maxContent: 1300,
-    },
 };
-
 
 
 
