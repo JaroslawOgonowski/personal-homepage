@@ -1,3 +1,4 @@
+![Currency calculator- react](./public/PersonalHomepageIcon.png)
 # Hi! Welcome to Personal Homepage project! 💻📱🔧
 This is my virtual reasume with information on what technologies I have learned so far, what I want to learn in the near future and all links to my Social Media - just in case you want to contact me ✉
 
