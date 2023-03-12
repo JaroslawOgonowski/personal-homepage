@@ -26,6 +26,7 @@ export const StyledTile = styled.li`
         border: 6px solid ${({ theme }) => theme.color.borderOnHover};
         box-shadow: 0px -2px 50px rgba${({ theme }) => theme.color.shadow}, 0px 16px 58px rgba${({ theme }) => theme.color.shadow};
         border-radius: 4px;
+        transform: scale(1.02);
     };
 `;
 

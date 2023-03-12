@@ -16,4 +16,4 @@ export const Title = styled.h2`
   font-size: 30px;
   font-weight: 900;
   border-bottom: 1px solid ${({ theme }) => theme.color.border};
-`;
+ `;
