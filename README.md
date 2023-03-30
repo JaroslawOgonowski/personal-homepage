@@ -1,4 +1,4 @@
-![Currency calculator- react](./public/PersonalHomepageIcon.png)
+![Personal Homepage](./public/PersonalHomepageIcon.png)
 # Hi! Welcome to Personal Homepage project! 💻📱🔧
 This is my virtual reasume with information on what technologies I have learned so far, what I want to learn in the near future and all links to my Social Media - just in case you want to contact me ✉
 
@@ -7,9 +7,9 @@ It's not just a nice table with pictures - the project checks most of the techno
 I invite you to take a look at the page  👇
 https://jaroslawogonowski.github.io/personal-homepage/
 
-![Currency calculator- react](./public/PersonalHomepage.gif)
+![Personal homepage- gif](./public/PersonalHomepage.gif)
 
-## Technologies used:
+## 🦾Technologies used: 
 - HTML
 - CSS
 - Styled Components
@@ -22,6 +22,20 @@ https://jaroslawogonowski.github.io/personal-homepage/
 - GlobalStyle
 - Redux-Saga
 - Redux (Toolkit)
+
+## How it works? 👀🛠
+### 🆗 HEADER
+In the header there is my photo, a short note, a button with the option to send an email directly to me and an animated button to change the theme.
+
+### ⏩ THEME BUTTON
+The button responsible for changing the theme changes the value in the state and transfers it directly to the APP where Theme Provider reads it and, based on the props, adds a light or dark composition to the page.
+
+### ⏩ ARTICLES
+The next two articles are the same component with different props - they map the skill array as the main content.
+### ⏩ PORTFOLIO
+The next content is the portfolio which, except for the header, fetches the content from the GitHub API using the axios library. Repository titles are modulated in such a way that they are legible, well presented and do not contain extra characters.
+### ⏩ FOOTER
+At the end of the page you will find a footer with contact information and SVG icons with links to my social media.
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
