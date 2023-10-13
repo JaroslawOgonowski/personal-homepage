@@ -1,4 +1,7 @@
 export const skills = [
+  "TypeScript",
+  "UnityEngine- basic",
+  "Articulate storyline",
   "Semantic & accessible HTML",
   "Responsive Web Design",
   "Markdown",
