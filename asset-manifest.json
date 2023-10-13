@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.63cf37c1.js",
+    "main.js": "/personal-homepage/static/js/main.55100f8c.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/JarosławOgonowski.jpg": "/personal-homepage/static/media/JarosławOgonowski.d5b8efb976bad1a3035e.jpg",
     "static/media/Instagram_black.svg": "/personal-homepage/static/media/Instagram_black.87732ce7a95cf2f174532f5fed6dd654.svg",
@@ -13,10 +13,10 @@
     "static/media/Message.svg": "/personal-homepage/static/media/Message.514461521cb8d76b55e16ac430346abb.svg",
     "static/media/Facebook_black.svg": "/personal-homepage/static/media/Facebook_black.4fcd2e5a629788c48eff881bf1586f1a.svg",
     "static/media/icon-spinner.svg": "/personal-homepage/static/media/icon-spinner.88a075cf3a7f1af15999cb03bb3a0360.svg",
-    "main.63cf37c1.js.map": "/personal-homepage/static/js/main.63cf37c1.js.map",
+    "main.55100f8c.js.map": "/personal-homepage/static/js/main.55100f8c.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.63cf37c1.js"
+    "static/js/main.55100f8c.js"
   ]
 }
